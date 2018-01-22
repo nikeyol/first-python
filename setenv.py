@@ -1,2 +1,4 @@
-user = "joeblogs"
-password = "c@123456"
+import os
+
+os.environ["user"] = "joeblogs"
+os.environ["password"] = "c@123456"
